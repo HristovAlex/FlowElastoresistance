@@ -10,7 +10,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="HristovInstrumentLib" Type="Folder" URL="..">
+		<Item Name="FlowElastoresistance" Type="Folder" URL="..">
 			<Property Name="NI.DISK" Type="Bool">true</Property>
 		</Item>
 		<Item Name="Dependencies" Type="Dependencies">
@@ -88,9 +88,6 @@
 				<Item Name="Write To Spreadsheet File.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Write To Spreadsheet File.vi"/>
 			</Item>
 			<Item Name="Command and Response7265.vi" Type="VI" URL="../SR5x10/Command and Response7265.vi"/>
-			<Item Name="GenerateFileName.vi" Type="VI" URL="../_ACFrontPanels/GenerateFileName.vi"/>
-			<Item Name="GetTemp.vi" Type="VI" URL="../_ACFrontPanels/GetTemp.vi"/>
-			<Item Name="LR700ReadDeltaRandR0.vi" Type="VI" URL="../../3ChannelElastoresistance/140515_3ChannelElastoResistance.llb/LR700ReadDeltaRandR0.vi"/>
 			<Item Name="lvanlys.dll" Type="Document" URL="/&lt;resource&gt;/lvanlys.dll"/>
 			<Item Name="Read XY 7265.vi" Type="VI" URL="../SR5x10/Read XY 7265.vi"/>
 			<Item Name="Response 7265.vi" Type="VI" URL="../SR5x10/7265/Response 7265.vi"/>
